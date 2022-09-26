@@ -1,6 +1,5 @@
 # express-react-template
-
-Create a React front-end with an express.js server
+Create a [React](https://reactjs.org/) front-end with an [Express.js](https://expressjs.com/) back-end.
 
 ## Usage
 Clone this repo and run:
