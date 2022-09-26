@@ -4,7 +4,7 @@ Create a [React](https://reactjs.org/) front-end with an [Express.js](https://ex
 ## Usage
 Clone this repo and run:
 ```
-npm install && npm run create
+npm run create
 ```
 - Change the front-end on `client/src/App.js`
 - Change the back-end on `server/index.js`
