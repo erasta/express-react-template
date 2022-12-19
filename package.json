@@ -9,6 +9,7 @@
     "create:copy": "cp example-template/App.js client/src/ && mkdir server && cp example-template/index.js server/",
     "create:proxy": "json -I -f client/package.json -e \"this.proxy='http://localhost:3005'\"",
     "create": "npm install && npx create-react-app client && npm run create:copy && npm run create:proxy",
+    "postinstall": "cd client && npm install",
     "client": "npm start --prefix ./client",
     "server": "nodemon server/index.js",
     "start": "concurrently -k 'npm:client' 'npm:server'"
